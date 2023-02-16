@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background-attachment: fixed;
+    background-image: url(../imgs/marmol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo 
+{
+    height: 100px;
+    max-width: 100%;
+    width: 100px;
+}
+
+main 
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.pulse:hover {
+	display: inline-block;
+	animation: pulse 2s infinite linear;
+}
+
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@media (max-width: 700px) { 
+    .maps {
+        max-width: 450px;
+    }
+ }
