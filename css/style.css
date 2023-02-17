@@ -1,3 +1,15 @@
+.social--instagram {
+  color: #3f729b;
+}
+
+.social--facebook {
+  color: #3b5998;
+}
+
+.social--whatsapp {
+  color: #00E676;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +74,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
