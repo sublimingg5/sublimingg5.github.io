@@ -1,7 +1,7 @@
 {
   "name": "sublimingg5.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web de Reposteria Andrea Ciceri, infomracion de productos, precios, ubicacion, datos de contacto, etc.",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"

@@ -5,17 +5,12 @@
 
 body 
 {
-    background-attachment: fixed;
-    background-image: url(../imgs/marmol.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include background-marmol
 }
 
 .logo 
 {
-    height: 100px;
-    max-width: 100%;
-    width: 100px;
+    @include logo-formatting
 }
 
 main 
