@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "sass --watch scss:css"
   },
-  "keywords": [],
+  "keywords": ["panaderia","reposteria","villa dominico","reposteria villa dominico","panaderia villa dominico", "servicio de lunch","lunch villa dominico","lunch wilde","reposteria wilde","servicio de lunch con envio","reposteria sarandi"],
   "author": "",
   "license": "ISC",
   "repository": {
