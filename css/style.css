@@ -56,6 +56,9 @@ main {
   .maps {
     max-width: 450px;
   }
+  nav div {
+    width: 100% !important;
+  }
   nav div ul * .text {
     font-size: larger !important;
   }
@@ -81,6 +84,11 @@ main {
   }
 }
 @media (max-width: 1200px) {
+  .no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 1rem;
+  }
   main h1 {
     font-size: 1.5rem;
   }
