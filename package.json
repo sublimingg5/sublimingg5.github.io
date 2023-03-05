@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sublimingg5/sublimingg5.github.io/issues"
   },
-  "homepage": "https://github.com/sublimingg5/sublimingg5.github.io#readme"
+  "homepage": "https://github.com/sublimingg5/sublimingg5.github.io#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }

@@ -1,4 +1,4 @@
-$primary-color: #FEC868;
+$primary-color: #ffcc5da6;
  
 @mixin background-marmol {
     background-attachment: fixed;
@@ -8,7 +8,7 @@ $primary-color: #FEC868;
 }
 
 @mixin logo-formatting {
-    height: 100px;
+    max-height: 100px;
     max-width: 100%;
     width: 100px;
 }

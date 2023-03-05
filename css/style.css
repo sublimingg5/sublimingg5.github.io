@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-  height: 100px;
+  max-height: 100px;
   max-width: 100%;
   width: 100px;
 }
@@ -52,9 +52,49 @@ main {
     opacity: 1;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .maps {
     max-width: 450px;
+  }
+  nav div ul * .text {
+    font-size: larger !important;
+  }
+  nav .p-1 {
+    padding: 1rem !important;
+    padding-left: 2rem !important;
+  }
+  main {
+    max-width: 100%;
+  }
+  main div .col-sm-4 {
+    padding: 0 !important;
+  }
+  main .btn {
+    margin-left: 0;
+  }
+  main div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  main .rounded {
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 1200px) {
+  main h1 {
+    font-size: 1.5rem;
+  }
+  main * img {
+    width: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+  }
+  nav div ul * .text {
+    font-size: larger !important;
+  }
+  nav .p-1 {
+    padding: 1rem !important;
+    padding-left: 2rem !important;
   }
 }
 nav div ul li {
@@ -84,7 +124,7 @@ h2 {
 .btn {
   font-family: "Sofia Sans", sans-serif;
   font-weight: 500;
-  background-color: #FEC868;
+  background-color: rgba(255, 204, 93, 0.6509803922);
   border-radius: 24px;
   border: 0px solid #EDF4F2;
   box-shadow: 0px 5px 0px 0px rgba(42, 42, 42, 0.34);
@@ -96,13 +136,13 @@ h2 {
   padding: 15px 30px;
 }
 .btn:hover {
-  background-image: -moz-linear-gradient(top, #FEC868, #FEC868);
-  background-image: -ms-linear-gradient(top, #FEC868, #FEC868);
-  background-image: -o-linear-gradient(top, #FEC868, #FEC868);
-  background-image: -webkit-linear-gradient(top, #FEC868, #FEC868);
-  background-image: linear-gradient(to bottom, #FEC868, #FEC868);
+  background-image: -moz-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: -ms-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: -o-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: -webkit-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: linear-gradient(to bottom, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
   background: black;
-  color: #FEC868;
+  color: rgba(255, 204, 93, 0.6509803922);
   border-color: #f4f4f4;
   border-style: solid;
   cursor: pointer;
@@ -110,7 +150,7 @@ h2 {
 }
 
 .block-bg-color {
-  background-color: #FEC868;
+  background-color: rgba(255, 204, 93, 0.6509803922);
   border-radius: 12px;
 }
 
